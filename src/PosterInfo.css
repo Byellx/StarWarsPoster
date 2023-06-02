@@ -1,0 +1,48 @@
+.posterInfoContainer{
+    height: 518px;
+}
+
+.posterTitleContainer{
+    height: 15%;
+}
+
+.posterContentContainer{
+    padding-left: 0;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.posterButton{
+    background-color: #1CF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: 15px;
+}
+
+.posterButton:hover{
+    background-color: #9cf;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1440px){
+    .posterInfoContainer{
+        height: 414px;
+    }
+
+    .posterContentContainer{
+        padding-bottom: 40px;
+        padding-right: 80px;
+    }
+
+    .posterButton{
+        height: 40px;
+        width: 120px;
+    }
+}
